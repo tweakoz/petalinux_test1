@@ -11,4 +11,5 @@ petalinux-create \
 
 cd PLUX
 petalinux-config --get-hw-description=/data/hardware
+cat /data/local.conf >> /tmp/pluxbuild/PLUX/build/conf/local.conf
 petalinux-build
