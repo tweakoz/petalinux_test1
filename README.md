@@ -1,10 +1,11 @@
 # petalinux_test1
 petalinux-docker container test
+tested on macos-catalina, ubuntu 20.04 docker hosts
 
 to use:
 1. install ork build tools @ https://github.com/tweakoz/ork.build
 2. from OBT environment shell: install docker image with https://github.com/tweakoz/petalinux-docker
-3. from OBT environment shell: ```./build.py``` - wait for build to complete
+3. from OBT environment shell: ```./build.py``` - wait for build to complete (it will be a while)
 4. build products will appear in ```<this-repo-dir>/tftpboot/```
 
 to regenerate xsa:
