@@ -3,7 +3,8 @@ petalinux-docker container test
 
 to use:
 1. install ork build tools @ https://github.com/tweakoz/ork.build
-2. in OBT environment shell install docker image with https://github.com/tweakoz/petalinux-docker
+2. from OBT environment shell: install docker image with https://github.com/tweakoz/petalinux-docker
+3. from in OBT environment shell: ```./build.py```
 
 to regenerate xsa:
 1. ```getbsp.py```
