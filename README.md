@@ -12,7 +12,7 @@ To use:
 3. from OBT environment shell: ```./build.py``` - wait for build to complete (it will be a while)
 4. build products will appear in ```<this-repo-dir>/tftpboot/```
 5. incremental (and manual) changes can be made to the build container using ```./shell.py```
-6. ```build.py``` and ```shell.py``` have a ```--cachedir``` param for using a (predownloaded) yocto sstate cache folder.
+6. ```build.py``` and ```shell.py``` have a ```--cachedir``` param for using a (predownloaded) xilinx/yocto sstate cache folder.
 
 To regenerate xsa:
 1. ```getbsp.py```
